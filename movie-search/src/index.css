@@ -29,4 +29,32 @@ code {
 .title {
   font-size: 4.4rem;
   text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form {
+  text-align: center;
+  display: grid;
+}
+.label {
+  font-size: 3.3rem;
+  font-family: "Times New Roman", Times, serif;
+  margin: 1.2rem;
+}
+.input {
+  margin: 1.2rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+  line-height: 2.8rem;
+  border-radius: 15px;
+  border: 1px solid #333;
+}
+.button {
+  padding: 1.2rem 1.2rem;
+  background-color: rgba(0, 0, 0, 0.65);
+  color: aliceblue;
+  font-size: 1.7rem;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  cursor: pointer;
 }
