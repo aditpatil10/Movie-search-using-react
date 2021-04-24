@@ -5,6 +5,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import "./App.css";
 import SearchMovie from "./SearchMovie";
+import movieCard from "./movieCard";
 class Car extends React.Component {
   render() {
     return (

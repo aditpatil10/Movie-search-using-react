@@ -8,7 +8,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: aquamarine;
+
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -62,7 +62,7 @@ code {
   margin: 1rem;
 }
 .card {
-  padding: 2rem 4rem;
+  padding: 2rem 5rem;
   margin: 2rem;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
@@ -71,8 +71,16 @@ code {
 .card--title {
   margin-bottom: 0.5rem;
   font-size: 3.2rem;
+  font-family: "Courier New", Courier, monospace;
 }
 .poster {
   margin: 0 auto;
   display: block;
+}
+.card--overview {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card--content {
+  font-size: 1.5rem;
 }
